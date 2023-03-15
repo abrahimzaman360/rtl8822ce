@@ -37,10 +37,10 @@ $ cd driver_directory && sudo make && sudo make install && sudo modprobe driver_
 (Warning: For Me Other Method Worked Well Because You'll See 2 Wifi Instances by DKMS Method).
 
 ### How to Substitute MakeFile:
-* $ ```sh git clone https://github.com/juanro49/rtl88x2ce-dkms ```
-* $ ```sh cd rtl88x2ce-dkms ```
-* $ ```sh sudo sed -i 's/EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/#EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/g' FilePathofMakefile```
-* $ ```sh sudo modprobe rtl88x2ce ```
+* ```git clone https://github.com/juanro49/rtl88x2ce-dkms ```
+* ```cd rtl88x2ce-dkms ```
+* ```sudo sed -i 's/EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/#EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/g' FilePathofMakefile```
+* ```sudo modprobe rtl88x2ce ```
 
 * My Probe or Specs: *
 * https://linux-hardware.org/?probe=f84f8c068b
