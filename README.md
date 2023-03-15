@@ -1,4 +1,4 @@
-# Realtk Wireless rtl8822ce 802.11 ac
+# Realtk's rtl8822ce 802.11 ac
 Story Behind How I Fixed My Wifi.
  
 ## Read My Story
