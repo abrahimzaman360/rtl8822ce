@@ -42,7 +42,7 @@ $ cd driver_directory && sudo make && sudo make install && sudo modprobe driver_
 * ```sudo sed -i 's/EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/#EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/g' FilePathofMakefile```
 * ```sudo modprobe rtl88x2ce ```
 
-* My Probe or Specs: *
+## My Probe or Specs:
 * https://linux-hardware.org/?probe=f84f8c068b
 
 ### Warning
