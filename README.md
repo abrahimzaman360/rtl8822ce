@@ -37,13 +37,13 @@ Resources Behind Wifi Fix:
 (Warning: For Me Other Method Worked Well Because You'll See 2 Wifi Instances by DKMS Method).
 
 How to Substitute MakeFile:
-1: $ ```sh git clone https://github.com/juanro49/rtl88x2ce-dkms ```
-2: $ ```sh cd rtl88x2ce-dkms ```
-3: $ ```sh sudo sed -i 's/EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/#EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/g' FilePathofMakefile```
-4: $ ```sh sudo modprobe rtl88x2ce ```
+* $ ```sh git clone https://github.com/juanro49/rtl88x2ce-dkms ```
+* $ ```sh cd rtl88x2ce-dkms ```
+* $ ```sh sudo sed -i 's/EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/#EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/g' FilePathofMakefile```
+* $ ```sh sudo modprobe rtl88x2ce ```
 
 * My Probe or Specs: *
-https://linux-hardware.org/?probe=f84f8c068b
+* https://linux-hardware.org/?probe=f84f8c068b
 
 *** Warning ***
 This Workflow really helped me on my laptop. I'm not sure or responsible if it didn't work on your's.
