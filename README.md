@@ -33,10 +33,17 @@ $ cd driver_directory && sudo make && sudo make install && sudo modprobe driver_
 
 Resources Behind Wifi Fix:
 * Kernel Module for Realtk Most Problmatic Chip *
-https://github.com/juanro49/rtl88x2ce-dkms
+* https://github.com/juanro49/rtl88x2ce-dkms
 (Warning: For Me Other Method Worked Well Because You'll See 2 Wifi Instances by DKMS Method).
 
 How to Substitute MakeFile:
-$ git clone https://github.com/juanro49/rtl88x2ce-dkms
-$ cd rtl88x2ce-dkms
-$ 
+1: $ ```sh git clone https://github.com/juanro49/rtl88x2ce-dkms ```
+2: $ ```sh cd rtl88x2ce-dkms ```
+3: $ ```sh sudo sed -i 's/EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/#EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/g' FilePathofMakefile```
+4: $ ```sh sudo modprobe rtl88x2ce ```
+
+* My Probe or Specs: *
+https://linux-hardware.org/?probe=f84f8c068b
+
+*** Warning ***
+This Workflow really helped me on my laptop. I'm not sure or responsible if it didn't work on your's.
