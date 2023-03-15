@@ -1,7 +1,7 @@
 # Realtk Wireless rtl8822ce 802.11 ac
 Story Behind How I Fixed My Wifi.
  
-** Read My Story **
+## Read My Story
 => When i started my new laptop, i noticed that i'm missing something important in life.
 What was that it was Linux, After using Windows 11 for 1 Month. I got tired of this trash.
 Then, I installed monster of distros " Ubuntu ", But
@@ -31,12 +31,12 @@ $ cd driver_directory && sudo make && sudo make install && sudo modprobe driver_
 -> Reboot and Done.
 
 
-Resources Behind Wifi Fix:
+### Resources Behind Wifi Fix:
 * Kernel Module for Realtk Most Problmatic Chip *
 * https://github.com/juanro49/rtl88x2ce-dkms
 (Warning: For Me Other Method Worked Well Because You'll See 2 Wifi Instances by DKMS Method).
 
-How to Substitute MakeFile:
+### How to Substitute MakeFile:
 * $ ```sh git clone https://github.com/juanro49/rtl88x2ce-dkms ```
 * $ ```sh cd rtl88x2ce-dkms ```
 * $ ```sh sudo sed -i 's/EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/#EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/g' FilePathofMakefile```
@@ -45,5 +45,5 @@ How to Substitute MakeFile:
 * My Probe or Specs: *
 * https://linux-hardware.org/?probe=f84f8c068b
 
-*** Warning ***
+### Warning
 This Workflow really helped me on my laptop. I'm not sure or responsible if it didn't work on your's.
