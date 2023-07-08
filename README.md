@@ -1,7 +1,7 @@
 # Realtk's rtl8822ce 802.11 ac
 Story Behind How I Fixed My Wifi.
  
-## Read My Story
+## Read My Story [Scroll Down if You don't wanna read my story, Read it if you like (:]
 => When i started my new laptop, i noticed that i'm missing something important in life.
 What was that it was Linux, After using Windows 11 for 1 Month. I got tired of this trash.
 Then, I installed monster of distros " Ubuntu ", But
