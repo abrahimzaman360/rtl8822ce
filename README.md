@@ -27,8 +27,7 @@ Instead of DKMS method;
 This time is used another method.
 One Liner by Me (Warning: If you scare of this command please enter one by one each before AND Operator):
 ### One Line Command and Done [May Override Current Drivers, Please Backup them]:
-* ``` git clone https://github.com/juanro49/rtl88x2ce-dkms.git && cd rtl88x2ce-dkms && sudo sed -i 's/EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/#EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/g'  
-      ./Makefile && sudo make && sudo make install && sudo modprobe rtl88x2ce ```
+* ``` git clone https://github.com/juanro49/rtl88x2ce-dkms.git && cd rtl88x2ce-dkms && sudo sed -i 's/EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/#EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/g' ./Makefile && sudo make && sudo make install && sudo modprobe rtl88x2ce ```
 
 -> Reboot and Done.
 
