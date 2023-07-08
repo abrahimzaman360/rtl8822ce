@@ -26,7 +26,8 @@ I scared first that something will happen to laptop but i'm never really scared 
 Instead of DKMS method;
 This time is used another method.
 One Liner by Me (Warning: If you scare of this command please enter one by one each before AND Operator):
-* ``` $ cd driver_directory && sudo make && sudo make install && sudo modprobe driver_Name && reboot. ```
+### One Line Command and Done [May Override Current Drivers, Please Backup them]:
+* ``` $ git clone https://github.com/juanro49/rtl88x2ce-dkms.git && cd rtl88x2ce-dkms && sudo make && sudo make install && sudo modprobe rtl88x2ce ```
 
 -> Reboot and Done.
 
@@ -36,7 +37,7 @@ One Liner by Me (Warning: If you scare of this command please enter one by one e
 * https://github.com/juanro49/rtl88x2ce-dkms
 (Warning: For Me Other Method Worked Well Because You'll See 2 Wifi Instances by DKMS Method).
 
-### How to Substitute MakeFile:
+### How to Substitute MakeFile [Installation (Old Method and Long Method)]:
 * ``` git clone https://github.com/juanro49/rtl88x2ce-dkms ```
 * ``` cd rtl88x2ce-dkms ```
 * ``` sudo sed -i 's/EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/#EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/g' ./FilePathofMakefile ```
