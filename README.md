@@ -41,7 +41,7 @@ One Liner by Me (Warning: If you scare of this command please enter one by one e
 * ``` git clone https://github.com/juanro49/rtl88x2ce-dkms ```
 * ``` cd rtl88x2ce-dkms ```
 * ``` sudo sed -i 's/EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/#EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/g' ./Makefile ```
-* ``` sudo make && sudo make install
+* ``` sudo make && sudo make install ```
 * ``` sudo modprobe rtl88x2ce ```
 
 -> Reboot and Done...
