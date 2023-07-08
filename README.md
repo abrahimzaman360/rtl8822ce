@@ -37,11 +37,14 @@ One Liner by Me (Warning: If you scare of this command please enter one by one e
 * https://github.com/juanro49/rtl88x2ce-dkms
 (Warning: For Me Other Method Worked Well Because You'll See 2 Wifi Instances by DKMS Method).
 
-### How to Substitute MakeFile [Installation (Old Method and Long Method)]:
+### How to Substitute MakeFile [Installation (Step by Step Method)]:
 * ``` git clone https://github.com/juanro49/rtl88x2ce-dkms ```
 * ``` cd rtl88x2ce-dkms ```
-* ``` sudo sed -i 's/EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/#EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/g' ./FilePathofMakefile ```
+* ``` sudo sed -i 's/EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/#EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/g' ./Makefile ```
+* ``` sudo make && sudo make install
 * ``` sudo modprobe rtl88x2ce ```
+
+-> Reboot and Done...
 
 ## My Probe or Specs:
 * https://linux-hardware.org/?probe=f84f8c068b
