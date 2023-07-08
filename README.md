@@ -45,7 +45,9 @@ One Liner by Me (Warning: If you scare of this command please enter one by one e
 * ``` sudo modprobe rtl88x2ce ```
 
 -> Reboot and Done...
-
+## Unloading Kernel Module aka Drivers:
+* ``` sudo modprobe -r rtl88x2ce ```
+  
 ## My Probe or Specs:
 * https://linux-hardware.org/?probe=f84f8c068b
 
