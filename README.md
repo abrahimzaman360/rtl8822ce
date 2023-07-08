@@ -26,7 +26,7 @@ I scared first that something will happen to laptop but i'm never really scared 
 Instead of DKMS method;
 This time is used another method.
 One Liner by Me (Warning: If you scare of this command please enter one by one each before AND Operator):
-$ cd driver_directory && sudo make && sudo make install && sudo modprobe driver_Name && reboot.
+* ``` $ cd driver_directory && sudo make && sudo make install && sudo modprobe driver_Name && reboot. ```
 
 -> Reboot and Done.
 
