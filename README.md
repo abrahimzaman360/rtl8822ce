@@ -1,3 +1,9 @@
+# Use it only if your wifi is not working correctly.
+On my system, Lunar Lubster (Ubuntu) wifi is working properly without doing anything below or else.
+Just continue on that.
+
+
+
 # Realtk's rtl8822ce 802.11 ac
 Story Behind How I Fixed My Wifi.
  
