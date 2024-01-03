@@ -1,4 +1,4 @@
-# Use it only if your wifi is not working correctly.
+# (Warn): Use it only if your wifi is not working correctly.
 On my system, Lunar Lubster (Ubuntu) wifi is working properly without doing anything below or else.
 Just continue on that.
 
@@ -37,11 +37,7 @@ One Liner by Me (Warning: If you scare of this command please enter one by one e
 
 -> Reboot and Done.
 
-
-### Resources Behind Wifi Fix:
-* Kernel Module for Realtk Most Problmatic Chip *
-* https://github.com/juanro49/rtl88x2ce-dkms
-(Warning: For Me Other Method Worked Well Because You'll See 2 Wifi Instances by DKMS Method).
+#---------------------------
 
 ### How to Substitute MakeFile [Installation (Step by Step Method)]:
 * ``` git clone https://github.com/juanro49/rtl88x2ce-dkms ```
@@ -53,6 +49,13 @@ One Liner by Me (Warning: If you scare of this command please enter one by one e
 -> Reboot and Done...
 ## Unloading Kernel Module aka Drivers:
 * ``` sudo modprobe -r rtl88x2ce ```
+
+#-------------------------------
+
+### Resources Behind Wifi Fix:
+* Kernel Module for Realtk Most Problmatic Chip *
+* https://github.com/juanro49/rtl88x2ce-dkms
+(Warning: For Me Above Methods Worked Well, You'll see 2 Wifi Instances by DKMS Method).
   
 ## My Probe or Specs:
 * https://linux-hardware.org/?probe=f84f8c068b
