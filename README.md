@@ -4,10 +4,10 @@ Just continue on that.
 
 
 
-# Realtk's rtl8822ce 802.11 ac
+### Realtk's rtl8822ce 802.11 ac
 Story Behind How I Fixed My Wifi.
  
-## Read My Story [Scroll Down if You don't wanna read my story, Read it if you like (:]
+##### Read My Story [Scroll Down if You don't wanna read my story, Read it if you like (:]
 => When i started my new laptop, i noticed that i'm missing something important in life.
 What was that it was Linux, After using Windows 11 for 1 Month. I got tired of this trash.
 Then, I installed monster of distros " Ubuntu ", But
@@ -33,7 +33,7 @@ Instead of DKMS method;
 This time is used another method.
 One Liner by Me (Warning: If you scare of this command please enter one by one each before AND Operator):
 
-### Method 1. One line - Command [May Override Current Drivers, Please Backup them]:
+##### Method 1. One line - Command [May Override Current Drivers, Please Backup them]:
 * ``` git clone https://github.com/juanro49/rtl88x2ce-dkms.git && cd rtl88x2ce-dkms && sudo sed -i 's/EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/#EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE/g' ./Makefile && sudo make && sudo make install && sudo modprobe rtl88x2ce ```
 
 -> Reboot and Done.
