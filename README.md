@@ -54,7 +54,7 @@ One Liner by Me (Warning: If you scare of this command please enter one by one e
 ##### Resources Behind Wifi Fix:
 * Kernel Module for Realtk Most Problmatic Chip *
 * https://github.com/juanro49/rtl88x2ce-dkms
-(Warning: For Me Above Methods Worked Well, You'll see 2 Wifi Instances by DKMS Method).
+(Warning: For Me Above Methods Worked Well, if you installed another way, you might see multiple wifi instances, you can uninstall/unload that module and use my installation method).
   
 ## My Probe or Specs:
 * https://linux-hardware.org/?probe=f84f8c068b
