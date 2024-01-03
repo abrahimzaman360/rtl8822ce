@@ -46,12 +46,12 @@ One Liner by Me (Warning: If you scare of this command please enter one by one e
 * ``` sudo modprobe rtl88x2ce ```
 
 -> Reboot and Done...
-## Unloading Kernel Module aka Drivers:
+##### Unloading Kernel Module aka Drivers:
 * ``` sudo modprobe -r rtl88x2ce ```
 
-#-------------------------------
 
-### Resources Behind Wifi Fix:
+
+##### Resources Behind Wifi Fix:
 * Kernel Module for Realtk Most Problmatic Chip *
 * https://github.com/juanro49/rtl88x2ce-dkms
 (Warning: For Me Above Methods Worked Well, You'll see 2 Wifi Instances by DKMS Method).
