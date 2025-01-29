@@ -8,8 +8,7 @@ On my system, Lunar Lubster (Ubuntu) wifi is working properly without doing anyt
 And replaced it with Intel AX Series Wifi. **[Thanks]**  
 
 ## Story: How I Fixed My Wifi
-
-### Read My Story 
+Note:
 *Scroll Down if You don't wanna read my story, Read it if you like (:*
 
 => When I started my new laptop, I noticed that I was missing something important in life. What was that? It was Linux. After using Windows 11 for 1 month, I got tired of this trash. Then, I installed the monster of distros, **"Ubuntu"**. But  
