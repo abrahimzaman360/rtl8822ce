@@ -6,9 +6,8 @@ On my system, Lunar Lubster (Ubuntu) wifi is working properly without doing anyt
 
 **[Sorry]** I've sacrificed this card, after the screw which was holding it not moving out!  
 And replaced it with Intel AX Series Wifi. **[Thanks]**  
-Realtk's rtl8822ce 802.11 ac
 
-## Story Behind How I Fixed My Wifi.
+## Story: How I Fixed My Wifi
 
 ### Read My Story 
 *Scroll Down if You don't wanna read my story, Read it if you like (:*
