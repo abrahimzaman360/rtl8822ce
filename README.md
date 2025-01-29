@@ -1,5 +1,5 @@
 
-# Hypnotic Writing:
+# Realtk Rtl 8822ce 802.11ac
 
 **(Warn):** Use it only if your wifi is not working correctly.  
 On my system, Lunar Lubster (Ubuntu) wifi is working properly without doing anything below or else. Just continue on that.
